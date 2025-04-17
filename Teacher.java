@@ -21,13 +21,13 @@ public class Teacher extends Person{
         return subject;
     }
     
-    public String getSalary(){
+    public double getSalary(){
         return salary;
     }
-    public void setSalary(){
-        salary = 100;
+    public void setSalary(double salary){
+        this.salary = salary;
     }
-    public void set Subject(){
-        subject = "Math";
+    public void setSubject(String subject){
+        this.subject = subject;
     }
 }
